@@ -1,8 +1,7 @@
 grammar expresso;
 
 //START OF FILE
-start: (func_def | class_def)*
-     ;
+start: (func_def | class_def)*;
 
 
 //FUNCTION
@@ -14,7 +13,7 @@ func_call: ID '.' ID '(' args* ')'
 
 
 //CLASS
-class_def: 'class' ID '('args')' class_stmts;
+class_def: 'class' ID '('args*')' class_stmts;
 
 class_stmt: ass ';'
           | func_def
@@ -25,7 +24,7 @@ class_stmts: '{' class_stmt* '}'
            |
            ;
 
-class_inst: 'new' ID '(' args ')';
+class_inst: 'new' ID '(' args* ')';
 
 
 //STATEMENTS

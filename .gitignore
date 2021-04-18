@@ -1,7 +1,5 @@
 __pycache__
-.antlr
 .vscode/launch.json
-build
 a.out
 out.ll
 out.s
