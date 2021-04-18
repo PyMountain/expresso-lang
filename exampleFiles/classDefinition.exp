@@ -1,0 +1,12 @@
+class NumberPrinter(somatory, module) {
+    somatoryPrintMessage = "the somatory is ";
+    modulePrintMessage = "the module is ";
+
+    def printModule() {
+        print(modulePrintMessage + module);
+    }
+
+    def printSomatory() {
+        print(somatoryPrintMessage + somatory);
+    }
+}

@@ -1,0 +1,13 @@
+def main() {
+    a = -1;
+    b = a;
+    c = "Hello world";
+    d = 2.123445;
+    c = true;
+
+    x = a + b;
+    y = a - b * 4 + 10 / 5 + 90 * (a + b);
+    z = a >= b <= c == d > 3 < 5;
+    w = 10%4;
+
+}

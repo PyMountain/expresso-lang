@@ -1,0 +1,14 @@
+def main() {
+    sum(a, b) {
+        return a + b;
+    }
+
+    def module(a, b) {
+    returna % b;
+    }
+
+    def printf(a {
+        print(a); 
+    }
+
+}

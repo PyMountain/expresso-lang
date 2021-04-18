@@ -1,0 +1,31 @@
+class NumberPrinter(somatory, module) {
+    somatoryPrintMessage = "the somatory is ";
+    modulePrintMessage = "the module is ";
+
+    def printModule() {
+        print(modulePrintMessage + module);
+    }
+
+    def printSomatory() {
+        print(somatoryPrintMessage + somatory);
+    }
+}
+
+def main() {
+    somatory = sum(a, b);
+    module = module(a, b);
+
+    numberPrinter = new NumberPrinter(somatory, module);
+
+    numberPrinter.printSomatory();
+    numberPrinter.printModule();
+
+}
+
+def sum(a, b) {
+    return a + b;
+}
+
+def module(a, b) {
+    return a % b;
+}

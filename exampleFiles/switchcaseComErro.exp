@@ -1,0 +1,14 @@
+  def main(){
+    switch(status){
+        case "on": {
+            printf("Ligado");
+        }
+        case:{
+            printf("Pausado");
+        }
+        default "off" :{
+            printf("Desligado");
+        }
+
+    }
+}

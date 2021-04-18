@@ -1,0 +1,45 @@
+def main() {
+    a = 5;
+    b = 10;
+    somatory = sum(a, b);
+    module = module(a, b);
+
+    numberPrinter = new NumberPrinter(somatory, module);
+
+    numberPrinter.printSomatory(a,b);
+    numberPrinter.printModule();
+
+    booleanVar = true;
+    number = 0;
+    while(a) {
+        if(b == 2) {
+            booleanVar = false;
+        }
+        number = number + 1;
+    }
+
+    switch(status){
+        case "ativo": {
+            sum(a,b);
+            break;
+        }
+        case "inativo":{
+            numberPrinter.printModule();
+        }
+        case true:{
+            break;
+        }
+
+        case (a==b): {
+
+        }
+    }
+}
+
+def sum(a, b) {
+    return a + b;
+}
+
+def module(a, b) {
+    return a % b;
+}

@@ -1,0 +1,22 @@
+def main(){
+    if(x > 1){
+        printf("Bye world");
+    }
+    else
+        printf("Hello World");
+
+    switch(status){
+        case "on": {
+            printf("Ligado");
+        }
+        case "pause":{
+            printf("Pausado");
+        }
+        default:{
+            printf("Desligado");
+        }
+
+    }
+
+
+}
